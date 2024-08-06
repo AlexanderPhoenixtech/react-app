@@ -28,8 +28,6 @@ function App() {
     resetGameToStorage()
   }
 
-
-
   const updateBoard = (index) => {
 
     if (board[index] || winner) return
